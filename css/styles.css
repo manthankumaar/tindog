@@ -1,34 +1,23 @@
 body{
     font-family: "montserrat-black";
-}
-
-/* title */
-
-#title{
-    background-color: #ff4c68;
-    color: aliceblue;
+    text-align: center;
 }
 .container-fluid{
-    padding: 1% 15%;
+    padding: 7% 15%;
 }
-.download-button {
-    margin: 5% 3% 5% 0%;
-}
-h1 {
-    font-family: "montserrat-black";
-    font-size: 5rem;
-    line-height: 1.5;
-}
-.title-img {
-    width: 60%;
-    transform: rotate(25deg);
-    position: relative;
-    left: 20%;
-    top: 10%;
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+
 }
 
+.white-section{
+    background-color: #fff;
+    color: black;
 
-/* navbar*/
+}
+
+                                           /* navbar*/
 
 .navbar {
     padding-bottom: 4rem;
@@ -45,14 +34,38 @@ h1 {
     font-family: "montserrat-light";
 }
 
-/* features */
+                                             /* title */
+
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "montserrat-bold";
+}   
+
+h1 {
+    font-size: 5rem;
+    line-height: 1.5;
+}
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+
+                                       /* features */
 
 #features{
-    text-align: center;
     font-family: "montserrat-bold";
-    background-color: #fff;
+
     font-size: 1.5em;
-    padding: 7% 15%;
     position: relative;
     z-index: 1;
 }
@@ -67,13 +80,10 @@ h1 {
     color: #ff4c68;
 }
 
-/* testiomonials */
+                                        /* testiomonials */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
-    
 }
 h2 {
     font-size: 3rem;
@@ -85,12 +95,8 @@ h2 {
     border-radius: 100%;
     margin:  20px;
 }
-.carousel-item {
-    padding: 7% 15%;
-}
 #press {
-    background-color: #ef8172;  
-    text-align: center;
+    background-color: #ef8172;
     padding-bottom: 3em;
 }
 .press-logo {
@@ -98,11 +104,10 @@ h2 {
     width: 15%;
 }
 
-/* Pricing */
+                                                /* Pricing */
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-col {
@@ -121,26 +126,14 @@ h2 {
 
 }
 
-/*  call to action  */
+                                                /*  call to action  */
 
-#cta {
-    background-color: #ff4c68;
-    text-align: center;
-    padding: 3% 10% 0% 10%;
-    font-family: "montserrat-black";
-}
-.download-ctn {
-    margin: 2%;
-}
-.cta-text {
-    font-size: 3rem;
-    padding: 0% 30%;
-}
 
-/*  footer */
-#footer {
-    text-align: center;
+
+                                                /*  footer */
+#footer .container-fluid {
     font-size: 2rem;
+    padding: 1% 15%;
 }
 .brands {
     padding: 0.5%;
